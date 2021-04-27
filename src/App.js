@@ -7,8 +7,8 @@ import Player from "./components/Player"
 import Library from "./components/Library"
 import Nav from "./components/Nav"
 
-// Import util
-import data from "./util"
+// Import data
+import data from "./data"
 
 function App() {
   // Ref
