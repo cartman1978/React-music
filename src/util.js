@@ -18,7 +18,7 @@ function chillHop() {
             cover:
                 "https://img.discogs.com/LOwx-hDnJupe-OT2eEdjMCjtRxY=/fit-in/600x564/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5873918-1543543395-2269.jpeg.jpg",
             artist: "Guns N' Roses",
-            audio: "https://media.hungama.com/c/4/baa/b95/58147195/58147195_128.mp3?uAOxRbPQthSemqDeahUkYmhBF_IeO6tZt-VqQKdKa4plRaBVnuW6sNdm7btruox0gAJwFIXivx2_lMWQHtZkN2PCxeUKP3saOI6RTG6X_WfFLUZx9EoMp15vCwQus8ZjP6CUEg",
+            audio: "http://rocknation.su/upload/mp3/Guns'n%20Roses/1991%20-%20Use%20Your%20Illusion%20II/01.%20Civil%20War.mp3",
             color: ["#930B0F", "#ab417f"],
             id: uuidv4(),
             active: false,
