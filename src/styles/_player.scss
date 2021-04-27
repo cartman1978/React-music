@@ -40,6 +40,14 @@ input[type="range"]:focus {
     height: 16px;
     width: 16px;
   }
+
+
+  // make styled inpud consistent in firefox
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+  }
   
 .track {
     background: rgb(93, 151, 237);
