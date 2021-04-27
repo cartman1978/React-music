@@ -1,7 +1,8 @@
 import React from "react";
+import Info from "./Info";
 
 
-const LibrarySong = ({ song, songs, setCurrentSong, id, audioRef, isPlaying, setSongs }) => {
+const LibrarySong = ({ song, songs, setCurrentSong, id, audioRef, isPlaying, setSongs, info }) => {
     const songSelectHandler = async () => {
         const selectedSong = songs.filter((state) => state.id === id);
         await setCurrentSong(selectedSong[0]);
@@ -33,6 +34,10 @@ const LibrarySong = ({ song, songs, setCurrentSong, id, audioRef, isPlaying, set
             <div className="song-description">
                 <h3>{song.name}</h3>
                 <h4>{song.artist}</h4>
+                <Info
+                    song={song}
+                    info={info}
+                />
             </div>
         </div>
     )
